@@ -85,6 +85,21 @@ a {
 .info {
 	flex: 1;
 	padding: 0 50px;
+	text-align: center;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center; */
+}
+
+.info-header {
+	margin: 40px 0;
+}
+
+.card-container {
+	display: flex;
+	justify-content: center;
+	padding: 0 100px;
+	gap: 20px;
 }
 
 /* quote */
@@ -95,6 +110,13 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.qoute-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 100px;
 }
 
 .quote-saying {
@@ -125,9 +147,13 @@ a {
 	background-color: #3882f6;
 	border-radius: 5px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	padding: 30px 0;
+}
+
+.sign-up-text {
+	padding-left: 100px;
 }
 
 .sign-up-text h4 {
@@ -138,6 +164,10 @@ a {
 .sign-up-text p {
 	color: #e5e7eb;
 	margin: 0;
+}
+
+.sign-up-button {
+	padding-right: 100px;
 }
 
 .sign-up-button button {
