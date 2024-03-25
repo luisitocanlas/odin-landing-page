@@ -77,7 +77,16 @@ a {
 	align-items: center;
 }
 
-.hero-img {
+.right .image {
+	background-color: #e5e7eb3f;
+	height: 180px;
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right .image .text {
 	color: #f9faf8;
 }
 
@@ -86,13 +95,14 @@ a {
 	flex: 1;
 	padding: 0 50px;
 	text-align: center;
-	/* display: flex;
+	display: flex;
 	flex-direction: column;
-	justify-content: center; */
+	justify-content: center;
+	gap: 20px;
 }
 
 .info-header {
-	margin: 40px 0;
+	margin: 0;
 }
 
 .card-container {
@@ -100,6 +110,23 @@ a {
 	justify-content: center;
 	padding: 0 100px;
 	gap: 20px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card .image {
+	border: 3px solid #3882f6;
+	border-radius: 8px;
+	height: 120px;
+	width: 120px;
+}
+
+.card .text {
+	padding: 0 22px;
 }
 
 /* quote */
